@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eco Cart - Shop</title>
+    <style>
+        body {
+            margin: 0;   /* Remove default spacing */
+            padding: 0;
+            background-color: #c8e6c9; /* overall background */
+            font-family: Arial, sans-serif;
+        }
+
+        .product {
+            border: 2px solid #2e7d32;
+            border-radius: 10px;
+            padding: 15px;
+            background-color: #fff;
+            width: 260px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+        }
+        .product img {
+            border-radius: 8px;
+        }
+
+        /* Make all section tables stretch edge to edge */
+        .full-width {
+            width: 100%;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <table class="full-width" cellpadding="10" bgcolor="#2e7d32" style="color: white;">
+        <tr>
+            <td><h2 style="color: white; margin: 0;">🌿 Eco Cart</h2></td>
+            <td align="right">
+                <b><a href="index.html" style="color: white; text-decoration: none;">🏠 HOME</a></b> &nbsp; | &nbsp;
+                <b><a href="shop.html" style="color: white; text-decoration: none;">🛒 SHOP</a></b> &nbsp; | &nbsp;
+                <b><a href="cart.html" style="color: white; text-decoration: none;">🛍 CART</a></b> &nbsp; | &nbsp;
+                <b><a href="about.html" style="color: white; text-decoration: none;">ℹ ABOUT</a></b> &nbsp; | &nbsp;
+                <b><a href="contact.html" style="color: white; text-decoration: none;">✉ CONTACT</a></b>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Shop Header -->
+    <table class="full-width" cellpadding="30" bgcolor="#81c784">
+        <tr>
+            <td align="center">
+                <h1 style="font-size: 45px; margin:0;">🛒 Shop Eco-Friendly Products</h1>
+                <p style="font-size: 22px; margin:5px 0;">Choose from our range of nature-friendly, sustainable items.</p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Products Grid -->
+    <table class="full-width" cellpadding="20" bgcolor="#c8e6c9" cellspacing="15">
+        <tr align="center" valign="top">
+            <td>
+                <div class="product">
+                    <img src="C:\Users\ashmi\OneDrive\Desktop\Project\Brush.jpg" width="220" height="220" alt="Bamboo Toothbrush"><br>
+                    <h3 style="font-size: 22px;">Bamboo Toothbrush</h3>
+                    <p style="font-size: 18px;">Eco-friendly & biodegradable.</p>
+                    <p style="font-size: 18px;"><b>₹99</b></p>
+                    <a href="cart.html"><input type="button" value="Add to Cart" style="font-size:16px; padding:8px 25px; border-radius:20px; cursor:pointer;"></a>
+                </div>
+            </td>
+            <td>
+                <div class="product">
+                    <img src="C:\Users\ashmi\OneDrive\Desktop\Project\Soap.jfif" width="220" height="220" alt="Organic Soap"><br>
+                    <h3 style="font-size: 22px;">Organic Soap</h3>
+                    <p style="font-size: 18px;">Handmade with essential oils.</p>
+                    <p style="font-size: 18px;"><b>₹149</b></p>
+                    <a href="cart.html"><input type="button" value="Add to Cart" style="font-size:16px; padding:8px 25px; border-radius:20px; cursor:pointer;"></a>
+                </div>
+            </td>
+            <td>
+                <div class="product">
+                    <img src="C:\Users\ashmi\OneDrive\Desktop\Project\Useable.jpg" width="220" height="220" alt="Reusable Bag"><br>
+                    <h3 style="font-size: 22px;">Reusable Bag</h3>
+                    <p style="font-size: 18px;">Foldable and sustainable.</p>
+                    <p style="font-size: 18px;"><b>₹199</b></p>
+                    <a href="cart.html"><input type="button" value="Add to Cart" style="font-size:16px; padding:8px 25px; border-radius:20px; cursor:pointer;"></a>
+                </div>
+            </td>
+        </tr>
+
+        <tr align="center" valign="top">
+            <td>
+                <div class="product">
+                    <img src="C:\Users\ashmi\OneDrive\Desktop\Project\Bottle.webp" width="220" height="220" alt="Bamboo Water Bottle"><br>
+                    <h3 style="font-size: 22px;">Bamboo Water Bottle</h3>
+                    <p style="font-size: 18px;">Durable and plastic-free.</p>
+                    <p style="font-size: 18px;"><b>₹299</b></p>
+                    <a href="cart.html"><input type="button" value="Add to Cart" style="font-size:16px; padding:8px 25px; border-radius:20px; cursor:pointer;"></a>
+                </div>
+            </td>
+            <td>
+                <div class="product">
+                    <img src="C:\Users\ashmi\OneDrive\Desktop\Project\Straw.webp" width="220" height="220" alt="Bamboo Straw Set"><br>
+                    <h3 style="font-size: 22px;">Bamboo Straw Set</h3>
+                    <p style="font-size: 18px;">Reusable & eco-friendly.</p>
+                    <p style="font-size: 18px;"><b>₹79</b></p>
+                    <a href="cart.html"><input type="button" value="Add to Cart" style="font-size:16px; padding:8px 25px; border-radius:20px; cursor:pointer;"></a>
+                </div>
+            </td>
+            <td>
+                <div class="product">
+                    <img src="C:\Users\ashmi\OneDrive\Desktop\Project\Candle.webp" width="220" height="220" alt="Soy Wax Candle"><br>
+                    <h3 style="font-size: 22px;">Soy Wax Candle</h3>
+                    <p style="font-size: 18px;">Natural fragrance, toxin-free.</p>
+                    <p style="font-size: 18px;"><b>₹249</b></p>
+                    <a href="cart.html"><input type="button" value="Add to Cart" style="font-size:16px; padding:8px 25px; border-radius:20px; cursor:pointer;"></a>
+                </div>
+            </td>
+        </tr>
+
+        <tr align="center" valign="top">
+            <td>
+                <div class="product">
+                    <img src="C:\Users\ashmi\OneDrive\Desktop\Project\comb.jpg" width="220" height="220" alt="Neem Wood Comb"><br>
+                    <h3 style="font-size: 22px;">Neem Wood Comb</h3>
+                    <p style="font-size: 18px;">Anti-bacterial, reduces hair damage.</p>
+                    <p style="font-size: 18px;"><b>₹149</b></p>
+                    <a href="cart.html"><input type="button" value="Add to Cart" style="font-size:16px; padding:8px 25px; border-radius:20px; cursor:pointer;"></a>
+                </div>
+            </td>
+            <td>
+                <div class="product">
+                    <img src="C:\Users\ashmi\OneDrive\Desktop\Project\coconut bowl.webp" width="220" height="220" alt="Coconut Bowl Set"><br>
+                    <h3 style="font-size: 22px;">Coconut Bowl Set</h3>
+                    <p style="font-size: 18px;">Made from real coconut shells.</p>
+                    <p style="font-size: 18px;"><b>₹449</b></p>
+                    <a href="cart.html"><input type="button" value="Add to Cart" style="font-size:16px; padding:8px 25px; border-radius:20px; cursor:pointer;"></a>
+                </div>
+            </td>
+            <td>
+                <div class="product">
+                    <img src="C:\Users\ashmi\OneDrive\Desktop\Project\something.webp" width="220" height="220" alt="Natural Loofah"><br>
+                    <h3 style="font-size: 22px;">Natural Loofah</h3>
+                    <p style="font-size: 18px;">Biodegradable bath sponge.</p>
+                    <p style="font-size: 18px;"><b>₹99</b></p>
+                    <a href="cart.html"><input type="button" value="Add to Cart" style="font-size:16px; padding:8px 25px; border-radius:20px; cursor:pointer;"></a>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Footer -->
+    <table class="full-width" cellpadding="10" bgcolor="#424242">
+        <tr>
+            <td align="center">
+                <p style="color: white; margin: 0;">© 2025 Eco Cart. All rights reserved.</p>
+                <p style="margin: 5px 0;">
+                    <a href="https://instagram.com" style="color: white; text-decoration: none;">Instagram</a> |
+                    <a href="https://twitter.com" style="color: white; text-decoration: none;">Twitter</a> |
+                    <a href="mailto:contact@ecocart.com" style="color: white; text-decoration: none;">Email Us</a>
+                </p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

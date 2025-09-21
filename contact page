@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us - Eco Cart</title>
+</head>
+<body style="margin:0; font-family: Arial, sans-serif; min-height:100vh; display:flex; flex-direction:column;">
+
+    <!-- Navigation Bar -->
+    <table width="100%" cellpadding="10" bgcolor="#2e7d32" style="color: white;">
+        <tr>
+            <td><h2 style="color: white; margin: 0;">🌿 Eco Cart</h2></td>
+            <td align="right" style="font-family: Arial, sans-serif;">
+                <b><a href="index.html" style="color: white; text-decoration: none;">🏠 HOME</a></b> &nbsp; | &nbsp;
+                <b><a href="shop.html" style="color: white; text-decoration: none;">🛒 SHOP</a></b> &nbsp; | &nbsp;
+                <b><a href="cart.html" style="color: white; text-decoration: none;">🛍 CART</a></b> &nbsp; | &nbsp;
+                <b><a href="about.html" style="color: white; text-decoration: none;">ℹ ABOUT</a></b> &nbsp; | &nbsp;
+                <b><a href="contact.html" style="color: white; text-decoration: none;">✉ CONTACT</a></b>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Main Content Wrapper -->
+    <div style="flex:1; background-color:#e8f5e9;">  <!-- SAME COLOR SET -->
+        <table width="100%" cellpadding="40">
+            <tr>
+                <td align="center">
+                    <h1 style="font-size: 42px; color: #2e7d32; margin-bottom: 10px;">🌿 About Eco Cart</h1>
+                    <hr width="60%" color="#2e7d32" size="3">
+                    <p style="font-size: 20px; color: #444; max-width: 800px; line-height: 1.6;">
+                        <b>Eco Cart</b> was founded in <b>2025</b> with a simple vision — to make our planet greener, cleaner,
+                        and healthier. We provide <b>eco-friendly products</b> such as bamboo toothbrushes, copper bottles,
+                        neem wood combs, reusable bags, coconut bowls, natural loofahs, and more — all crafted
+                        from nature’s finest materials. 🌎✨
+                    </p>
+                    <p style="font-size: 20px; color: #444; max-width: 800px; line-height: 1.6;">
+                        Every product is <b>handmade</b>, <b>biodegradable</b>, and supports <b>local artisans</b>.
+                        At Eco Cart, we believe small choices lead to big changes — one eco-friendly step at a time. 💚
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Call-to-action + Footer -->
+    <div>
+        <table width="100%" cellpadding="20" bgcolor="#a5d6a7">
+            <tr>
+                <td align="center" style="color: #1b5e20; font-size: 22px; font-weight: bold;">
+                    Together, let’s reduce plastic waste and choose a sustainable future. 🌱
+                </td>
+            </tr>
+        </table>
+
+        <table width="100%" cellpadding="10" bgcolor="#424242">
+            <tr>
+                <td align="center">
+                    <p style="color: white; margin: 0;">© 2025 Eco Cart. All rights reserved.</p>
+                    <p style="margin: 5px 0;">
+                        <a href="https://instagram.com" style="color: white; text-decoration: none;">Instagram</a> |
+                        <a href="https://twitter.com" style="color: white; text-decoration: none;">Twitter</a> |
+                        <a href="mailto:contact@ecocart.com" style="color: white; text-decoration: none;">Email Us</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

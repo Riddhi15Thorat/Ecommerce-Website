@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout - Eco Cart</title>
+</head>
+<body style="margin:0; font-family: Arial, sans-serif; text-align:center; background:#f9fbe7;">
+
+    <!-- Navigation Bar (same as others) -->
+    <table width="100%" cellpadding="10" bgcolor="#2e7d32" style="color: white;">
+        <tr>
+            <td><h2 style="color: white; margin: 0;">🌿 Eco Cart</h2></td>
+            <td align="right">
+                <b><a href="index.html" style="color:white; text-decoration:none;">🏠 HOME</a></b> &nbsp; | &nbsp;
+                <b><a href="shop.html" style="color:white; text-decoration:none;">🛒 SHOP</a></b> &nbsp; | &nbsp;
+                <b><a href="cart.html" style="color:white; text-decoration:none;">🛍 CART</a></b> &nbsp; | &nbsp;
+                <b><a href="about.html" style="color:white; text-decoration:none;">ℹ ABOUT</a></b> &nbsp; | &nbsp;
+                <b><a href="contact.html" style="color:white; text-decoration:none;">✉ CONTACT</a></b>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Funny Under Construction Message -->
+    <div style="padding:60px;">
+        <h1 style="font-size:50px; color:#d32f2f;">🚧 Checkout Under Construction 🚧</h1>
+        <p style="font-size:22px; color:#555; max-width:700px; margin:auto; line-height:1.6;">
+            Oops! Looks like our eco-friendly checkout is still being built with love 💚. <br>
+            Don’t worry — no trees were harmed in the making of this page 🌳✨. <br>
+            Meanwhile, sit back, sip some coconut water, and imagine a smoother checkout experience. 😉
+        </p>
+
+        <br><br>
+        <h2 style="color:#2e7d32;">🔧 Our Team is working hard... but slowly, like a sloth 🦥</h2>
+
+        <br><br>
+        <!-- Return Button -->
+        <a href="cart.html" 
+           style="background:#2e7d32; color:white; padding:15px 30px; text-decoration:none; 
+                  border-radius:8px; font-size:20px;">
+           ⬅ Back to Cart
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <table width="100%" cellpadding="10" bgcolor="#424242" style="position:fixed; bottom:0; left:0;">
+        <tr>
+            <td align="center">
+                <p style="color:white; margin:0;">© 2025 Eco Cart. Building greener futures, one page at a time 🌿</p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

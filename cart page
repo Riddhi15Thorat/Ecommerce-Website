@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart - Eco Cart</title>
+</head>
+<body style="margin:0; font-family: Arial, sans-serif; background:#f1f8e9;">
+
+    <!-- Navigation Bar -->
+    <table width="100%" cellpadding="10" bgcolor="#2e7d32" style="color:white;">
+        <tr>
+            <td><h2 style="color:white; margin:0;">🌿 Eco Cart</h2></td>
+            <td align="right">
+                <b><a href="index.html" style="color:white; text-decoration:none;">🏠 HOME</a></b> &nbsp; | &nbsp;
+                <b><a href="shop.html" style="color:white; text-decoration:none;">🛒 SHOP</a></b> &nbsp; | &nbsp;
+                <b><a href="cart.html" style="color:white; text-decoration:none;">🛍 CART</a></b> &nbsp; | &nbsp;
+                <b><a href="about.html" style="color:white; text-decoration:none;">ℹ ABOUT</a></b> &nbsp; | &nbsp;
+                <b><a href="contact.html" style="color:white; text-decoration:none;">✉ CONTACT</a></b>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Cart Section -->
+    <div style="padding:40px; text-align:center;">
+        <h1 style="font-size:40px; color:#2e7d32;">🛍 Your Shopping Cart</h1>
+        <p style="font-size:18px; color:#555;">Here’s what you’ve added to your eco-friendly bag 🌎✨</p>
+
+        <!-- Cart Table -->
+        <table border="1" cellspacing="0" cellpadding="15" width="80%" align="center" 
+               style="border-collapse:collapse; font-size:18px; background:white;">
+            <tr bgcolor="#a5d6a7" style="color:#1b5e20; font-weight:bold;">
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Total</td>
+            </tr>
+            <tr>
+                <td>🌿 Bamboo Toothbrush</td>
+                <td>₹99</td>
+                <td>2</td>
+                <td>₹198</td>
+            </tr>
+            <tr>
+                <td>🥥 Coconut Bowl Set</td>
+                <td>₹449</td>
+                <td>1</td>
+                <td>₹449</td>
+            </tr>
+            <tr>
+                <td>💇 Neem Wood Comb</td>
+                <td>₹149</td>
+                <td>1</td>
+                <td>₹149</td>
+            </tr>
+            <tr bgcolor="#c8e6c9" style="font-weight:bold;">
+                <td colspan="3" align="right">Grand Total</td>
+                <td>₹796</td>
+            </tr>
+        </table>
+
+        <br><br>
+        <!-- Buttons -->
+        <a href="shop.html" 
+           style="background:#388e3c; color:white; padding:12px 25px; text-decoration:none; border-radius:6px; font-size:18px;">
+           ⬅ Continue Shopping
+        </a>
+        &nbsp;&nbsp;
+        <a href="checkout.html" 
+           style="background:#ff9800; color:white; padding:12px 25px; text-decoration:none; border-radius:6px; font-size:18px;">
+           ✅ Proceed to Checkout
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <table width="100%" cellpadding="10" bgcolor="#424242" style="position:fixed; bottom:0; left:0;">
+        <tr>
+            <td align="center">
+                <p style="color:white; margin:0;">© 2025 Eco Cart. Making shopping sustainable 🌱</p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
